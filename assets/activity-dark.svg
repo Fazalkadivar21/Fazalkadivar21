@@ -1,32 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="280" viewBox="0 0 840 280" role="img" aria-label="Activity snapshot">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="320" viewBox="0 0 880 320" role="img" aria-label="Activity snapshot">
   <title>Activity snapshot</title>
-  <rect width="100%" height="100%" fill="#0d1117"/>
-  <rect x="24" y="24" width="792" height="232" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
-  <text x="48" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#39c5cf">$ neofetch --github</text>
   
-  <rect x="230" y="44" width="8" height="16" fill="#3fb950">
-    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite" />
+  <defs>
+    <pattern id="scan-activity-dark" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#3dffa8" opacity="0.035"/>
+    </pattern>
+    <linearGradient id="sheen-activity-dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3dffa8" stop-opacity="0.12"/>
+      <stop offset="45%" stop-color="#0b1214" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ff5c4d" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#05080a"/>
+  <rect x="16" y="16" width="848" height="288" fill="#0b1214" stroke="#1e3330" stroke-width="2"/>
+  <rect x="16" y="16" width="848" height="288" fill="url(#sheen-activity-dark)"/>
+  <rect x="16" y="16" width="848" height="288" fill="url(#scan-activity-dark)"/>
+  <!-- corner ticks -->
+  <path d="M16 30 V16 H30" fill="none" stroke="#3dffa8" stroke-width="2.5"/>
+  <path d="M850 16 H864 V30" fill="none" stroke="#3dffa8" stroke-width="2.5"/>
+  <path d="M16 290 V304 H30" fill="none" stroke="#ff5c4d" stroke-width="2.5"/>
+  <path d="M850 304 H864 V290" fill="none" stroke="#ff5c4d" stroke-width="2.5"/>
+
+
+  <text x="36" y="48" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#6b8f80">
+    <tspan fill="#3dffa8">fazalkadivar</tspan><tspan fill="#6b8f80">@</tspan><tspan fill="#b8f3ff">ship</tspan>
+    <tspan fill="#ff5c4d"> $</tspan>
+    <tspan fill="#ffd166"> neofetch</tspan>
+    <tspan fill="#6b8f80"> --github</tspan>
+  </text>
+  
+  <rect x="340.2" y="34" width="10" height="14" fill="#3dffa8">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.55;1" dur="1.05s" repeatCount="indefinite" />
   </rect>
+
+  <!-- neofetch left art -->
+  <rect x="36" y="64" width="240" height="200" fill="#071110" stroke="#1e3330" stroke-width="1"/>
   
-  <text x="48" y="88" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#3fb950">→</text>
-  <text x="70" y="88" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#8b949e">contributions</text>
-  <text x="280" y="88" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#e6edf3">143 (2026)</text>
-  <text x="48" y="114" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#3fb950">→</text>
-  <text x="70" y="114" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#8b949e">upstream PRs merged</text>
-  <text x="280" y="114" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#e6edf3">1 (2026)</text>
-  <text x="48" y="140" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#3fb950">→</text>
-  <text x="70" y="140" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#8b949e">stars earned</text>
-  <text x="280" y="140" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#e6edf3">5</text>
-  <text x="48" y="166" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#3fb950">→</text>
-  <text x="70" y="166" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#8b949e">last shipped</text>
-  <text x="280" y="166" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#e6edf3">Fazalkadivar21/Fazalkadivar21 @ 2026-07-23</text>
-  <text x="48" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#8b949e">top languages</text>
-  <rect x="48" y="222" width="171" height="10" fill="#3fb950"/>
-<rect x="219" y="222" width="71" height="10" fill="#39c5cf"/>
-<rect x="290" y="222" width="60" height="10" fill="#d29922"/>
-<rect x="350" y="222" width="18" height="10" fill="#8b949e"/><text x="48" y="250" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#8b949e"><tspan fill="#3fb950">■</tspan> TypeScript</text>
-<text x="48" y="266" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#8b949e"><tspan fill="#39c5cf">■</tspan> JavaScript</text>
-<text x="48" y="282" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#8b949e"><tspan fill="#d29922">■</tspan> Python</text>
-<text x="48" y="298" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#8b949e"><tspan fill="#8b949e">■</tspan> Shell</text>
+  <g transform="translate(78, 100)">
+    <!-- F -->
+    <rect x="0" y="0" width="20.4" height="140" fill="#3dffa8"/>
+    <rect x="20.4" y="0" width="64.2" height="20.4" fill="#3dffa8"/>
+    <rect x="20.4" y="58.3" width="46.7" height="17.5" fill="#3dffa8"/>
+    <!-- K -->
+    <rect x="105" y="0" width="20.4" height="140" fill="#b8f3ff"/>
+    <path d="M125.4 70 L186.7 0 L210 0 L140 70 Z" fill="#b8f3ff"/>
+    <path d="M125.4 70 L210 140 L186.7 140 L140 70 Z" fill="#b8f3ff"/>
+  </g>
+  <text x="156" y="248" text-anchor="middle" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="3" fill="#ff5c4d">BUILDER</text>
+
+  
+  <text x="300" y="86" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#3dffa8">Contributions</text>
+  <text x="470" y="86" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#6b8f80">:</text>
+  <text x="490" y="86" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#ecfff6">143</text>
+  <text x="300" y="112" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#ff5c4d">Upstream PRs</text>
+  <text x="470" y="112" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#6b8f80">:</text>
+  <text x="490" y="112" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#ecfff6">1</text>
+  <text x="300" y="138" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#ffd166">Stars earned</text>
+  <text x="470" y="138" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#6b8f80">:</text>
+  <text x="490" y="138" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#ecfff6">5</text>
+  <text x="300" y="164" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#b8f3ff">Last shipped</text>
+  <text x="470" y="164" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#6b8f80">:</text>
+  <text x="490" y="164" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#ecfff6">Fazalkadivar21/thereadme @ 2026-07-23</text>
+  <text x="300" y="190" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#6b8f80">Year</text>
+  <text x="470" y="190" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="14" fill="#6b8f80">:</text>
+  <text x="490" y="190" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#ecfff6">2026</text>
+
+  <line x1="300" y1="230" x2="840" y2="230" stroke="#1e3330" stroke-width="1"/>
+  <text x="300" y="256" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#6b8f80">languages</text>
+  <rect x="300" y="268" width="257" height="12" fill="#3dffa8"/>
+<rect x="557" y="268" width="106" height="12" fill="#b8f3ff"/>
+<rect x="663" y="268" width="90" height="12" fill="#ffd166"/>
+<rect x="753" y="268" width="27" height="12" fill="#ff5c4d"/>
+<text x="300" y="300" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#6b8f80"><tspan fill="#3dffa8">▮</tspan> TypeScript 54%</text>
+<text x="450" y="300" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#6b8f80"><tspan fill="#b8f3ff">▮</tspan> JavaScript 22%</text>
+<text x="600" y="300" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#6b8f80"><tspan fill="#ffd166">▮</tspan> Python 19%</text>
+<text x="750" y="300" font-family="JetBrains Mono, SF Mono, Cascadia Code, ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#6b8f80"><tspan fill="#ff5c4d">▮</tspan> Shell 6%</text>
 </svg>
