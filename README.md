@@ -1,18 +1,48 @@
-# 💫 About Me:
-👨‍💻 About Me<br>🔭 Rebuilding identity with _**qid**_.<br><br>🤝 I’m looking to collaborate on:<br>Creative full-stack projects that need structure, clean code, and momentum.<br><br>🙋‍♂️ I’m looking for help with:<br>Leveling up my backend game — especially around building scalable, secure APIs.<br><br>🌱 I’m currently learning:<br>Core backend concepts — auth flows, database design, API architecture, and best practices for production-ready systems.<br><br>💬 Ask me about:<br>Project structuring, full-stack workflows, and turning ideas into working apps.<br><br>⚡ Fun fact:<br>I treat side projects like startups — fast, focused, and fun to build.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
+  <img src="./assets/hero-light.svg" alt="Fazal Kadivar profile header" />
+</picture>
+
+I build software for the joy of it — especially around AI — and share the messy middle in open source. Serious about craft, unserious about taking myself too seriously.
+
+[web](https://fazalk.vercel.app) · [twitter](https://x.com/fazalkadivar21) · [github](https://github.com/fazalkadivar21)
+
+---
+
+### Featured
+
+- **[Fazalkadivar21/onlyapp](https://github.com/Fazalkadivar21/onlyapp)** · TypeScript  
+  Unified AI workspace for building and talking to your tools in one place
+- **[Fazalkadivar21/Relay](https://github.com/Fazalkadivar21/Relay)** · Python  
+  Compatibility layer between Claude Code workflows and ChatGPT
+- **[Fazalkadivar21/chatGPT-clone](https://github.com/Fazalkadivar21/chatGPT-clone)** · TypeScript · ★ 2  
+  Full-stack Gemini-powered chat app from the build-in-public grind
+- **[Fazalkadivar21/starboy](https://github.com/Fazalkadivar21/starboy)** · JavaScript · ★ 3  
+  CLI to scaffold projects with a live reload dev mode
+- **[Fazalkadivar21/omegle](https://github.com/Fazalkadivar21/omegle)** · TypeScript  
+  Omegle-style random chat clone with NSFW protection
+
+### Also active
+
+- **[Fazalkadivar21/thereadme](https://github.com/Fazalkadivar21/thereadme)** · TypeScript  
+  Self-updating GitHub profile README generator
+- **[Fazalkadivar21/Zeni](https://github.com/Fazalkadivar21/Zeni)** · TypeScript  
+  Track your earning goals with progress rings and a home screen widget.
+- **[Fazalkadivar21/PhantomPenguin](https://github.com/Fazalkadivar21/PhantomPenguin)** · Shell  
+  A repository containing setup file for my linux distroes .
+
+### Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg" />
+  <img src="./assets/activity-light.svg" alt="Activity snapshot" />
+</picture>
+
+### Merged upstream PRs
+
+- [fix: prevent initial right-click from selecting a context menu item](https://github.com/pingdotgg/t3code/pull/3877) — `pingdotgg/t3code` · 2026-07-17
 
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/fazalkadivar21) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/fazalkadivar21) 
+---
 
-# 💻 Tech Stack:
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![EJS](https://img.shields.io/badge/ejs-%23B4CA65.svg?style=for-the-badge&logo=ejs&logoColor=black) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Bitwarden](https://img.shields.io/badge/bitwarden-%23175DDC.svg?style=for-the-badge&logo=bitwarden&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-
-  ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/fazalkadivar21) 
-
-  
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<sub>Last updated: 2026-07-23T17:49:10Z · generated by [thereadme](https://github.com/fazalkadivar21/thereadme)</sub>
