@@ -22,7 +22,7 @@
   
   <rect x="40" y="86" width="194" height="72" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
   <text x="54" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" letter-spacing="0.5" fill="#8b949e">CONTRIBUTIONS</text>
-  <text x="54" y="132" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="22" font-weight="700" fill="#3fb950">161</text>
+  <text x="54" y="132" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="22" font-weight="700" fill="#3fb950">162</text>
   <text x="54" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" fill="#8b949e">2026</text>
   <rect x="248" y="86" width="194" height="72" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
   <text x="262" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" letter-spacing="0.5" fill="#8b949e">PRS MERGED</text>
@@ -34,16 +34,16 @@
   <text x="470" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" fill="#8b949e">earned</text>
   <rect x="664" y="86" width="194" height="72" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
   <text x="678" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" letter-spacing="0.5" fill="#8b949e">LAST SHIPPED</text>
-  <text x="678" y="132" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="22" font-weight="700" fill="#3fb950">thereadme</text>
-  <text x="678" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" fill="#8b949e">2026-07-24</text>
+  <text x="678" y="132" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="22" font-weight="700" fill="#3fb950">zed</text>
+  <text x="678" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" fill="#8b949e">2026-08-04</text>
 
   <text x="40" y="192" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" fill="#8b949e">languages</text>
-  <rect x="40" y="204" width="300" height="10" rx="2" fill="#39c5cf"/>
-<rect x="340" y="204" width="123" height="10" rx="2" fill="#d29922"/>
-<rect x="463" y="204" width="105" height="10" rx="2" fill="#58a6ff"/>
-<rect x="568" y="204" width="32" height="10" rx="2" fill="#3fb950"/>
-<text x="40" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" fill="#8b949e"><tspan fill="#39c5cf">■</tspan> TypeScript 54%</text>
-<text x="190" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" fill="#8b949e"><tspan fill="#d29922">■</tspan> JavaScript 22%</text>
-<text x="340" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" fill="#8b949e"><tspan fill="#58a6ff">■</tspan> Python 19%</text>
-<text x="490" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" fill="#8b949e"><tspan fill="#3fb950">■</tspan> Shell 6%</text>
+  <rect x="40" y="204" width="547" height="10" rx="2" fill="#39c5cf"/>
+<rect x="587" y="204" width="8" height="10" rx="2" fill="#d29922"/>
+<rect x="595" y="204" width="8" height="10" rx="2" fill="#58a6ff"/>
+<rect x="603" y="204" width="8" height="10" rx="2" fill="#3fb950"/>
+<text x="40" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" fill="#8b949e"><tspan fill="#39c5cf">■</tspan> Rust 98%</text>
+<text x="190" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" fill="#8b949e"><tspan fill="#d29922">■</tspan> Python 1%</text>
+<text x="340" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" fill="#8b949e"><tspan fill="#58a6ff">■</tspan> TypeScript 1%</text>
+<text x="490" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" fill="#8b949e"><tspan fill="#3fb950">■</tspan> JavaScript 0%</text>
 </svg>
